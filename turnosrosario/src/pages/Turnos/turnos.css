@@ -1,0 +1,55 @@
+h1 {
+  font-size: 28px;
+  text-align: center;
+}
+.content-form {
+  width: 40%;
+  min-width: 350px;
+  justify-content: center;
+  margin: 0px auto;
+  margin-top: 10vh;
+}
+
+.display-form {
+  text-align: left;
+  font-size: 18px;
+}
+.display-button {
+  display: flex;
+  width: 100%;
+}
+.display-button-sig {
+  justify-content: right;
+  text-align: right;
+  width: 100%;
+  margin-right: 0px;
+  margin-left: 0%;
+}
+.date-content {
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+
+.display-day {
+  margin: 0 auto 0 0;
+  margin-bottom: 20px;
+  width: 49%;
+}
+
+.display-hour {
+  margin: 0 0 0 auto;
+  margin-bottom: 20px;
+  width: 49%;
+}
+label {
+  font-size: 20px;
+}
+
+button {
+  width: 100%;
+}
+
+.datos-turno {
+  display: block;
+}

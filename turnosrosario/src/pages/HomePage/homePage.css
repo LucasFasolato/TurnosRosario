@@ -1,0 +1,11 @@
+.display-button {
+  display: block;
+  width: 200px;
+  height: auto;
+  justify-content: center;
+  margin: 10px auto;
+}
+.bttn {
+  width: 200px;
+  height: 100%;
+}
