@@ -15,8 +15,15 @@ public class TurnoService {
     public TurnoService(TurnoRepository turnoRepository) {
         this.turnoRepository =  turnoRepository;
     }
+    public Optional<Turno> getTurno(int id) {
+        return turnoRepository.findById(id);
+    }
 
     public Turno guardarTurno(Turno turno){
+        return turnoRepository.save(turno);
+    }
+
+    public Turno updateTurno(Turno turno) {
         return turnoRepository.save(turno);
     }
 
@@ -28,7 +35,7 @@ public class TurnoService {
         return turnoRepository.findAll();
     }
 
-    public Optional<Turno> listarMiTurno(id){
+    public Optional<Turno> listarMiTurno(int id){
         return turnoRepository.findById(id);
     }
 }

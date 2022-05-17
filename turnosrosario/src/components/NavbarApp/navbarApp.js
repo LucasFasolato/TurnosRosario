@@ -22,6 +22,9 @@ function NavbarApp() {
             <Nav.Link onClick={() => navigate("/miturno")}>
               Mi turno
             </Nav.Link>
+            <Nav.Link onClick={() => navigate("/horarios")}>
+              Horarios
+            </Nav.Link>
             <NavDropdown title="Medios de pago" id="navbarScrollingDropdown">
               <NavDropdown.Item href="#action3">MercadoPago</NavDropdown.Item>
               <NavDropdown.Item href="#action4">Tarjeta</NavDropdown.Item>

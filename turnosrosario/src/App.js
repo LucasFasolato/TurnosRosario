@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import HomePage from './pages/HomePage/homePage.js'
 import Turnos from './pages/Turnos/turnos.js'
 import MiTurno from './pages/MiTurno/miTurno.js'
+import Horarios from './components/Horarios/Horarios';
 function AppWrapper() {
   return (
     <div>
@@ -13,6 +14,7 @@ function AppWrapper() {
         <Route path="/home" element={<HomePage/>} />
         <Route path="/turnos" element={<Turnos/>} />
         <Route path="/miturno" element={<MiTurno/>} />
+        <Route path="/horarios" element={<Horarios/>} />
       </Routes>
     </div>
   );
